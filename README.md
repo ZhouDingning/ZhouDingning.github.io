@@ -4,7 +4,7 @@
 
 ### 使用手册
 
-[Jekyll搭建个人博客](https://zhoudingning.github.io/2017/04/jekyll+github for windows/)  :  使用Jekyll搭建个人博客的教程，以及如何把博客模板修改成你自己的博客，里面也有大量的评论，及 Jekyll 搭建博客出现过的问题。
+[Jekyll搭建个人博客](https://zhoudingning.github.io/2017/04/jekyll+github_for_windows/)  :  使用Jekyll搭建个人博客的教程，以及如何把博客模板修改成你自己的博客，里面也有大量的评论，及 Jekyll 搭建博客出现过的问题。
 
 
 ### 使用条件
