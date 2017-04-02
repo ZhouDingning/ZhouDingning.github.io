@@ -20,16 +20,11 @@ title: 关于我
 <p>
 
 如果你想搭建一个跟我一样的博客，可以看我的 
-<a href="/2016/10/jekyll_tutorials1/"> Jekyll 搭建个人博客 </a>
+<a href="/2017/04/jekyll+github for windows/"> Jekyll 搭建个人博客 </a>
 教程
 
 <p>
 
-博客主题来源于
-<a target="_blank" href='http://baixin.io/'>leopardpan</a>
-，并在此基础上修改，有对于主题的建议和意见都可以提给我~ 
-
-<p> 
 
 博客源码在 <a target="_blank" href='https://github.com/ZhouDingning/ZhouDingning.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
 

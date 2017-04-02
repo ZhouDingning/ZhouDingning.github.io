@@ -4,7 +4,7 @@
 
 ### 使用手册
 
-[Jekyll搭建个人博客](https://github.com/ZhouDingning/ZhouDingning.github.io/2016/10/jekyll_tutorials1/)  :  使用Jekyll搭建个人博客的教程，以及如何把博客模板修改成你自己的博客，里面也有大量的评论，及 Jekyll 搭建博客出现过的问题。
+[Jekyll搭建个人博客](https://zhoudingning.github.io/2017/04/jekyll+github for windows/)  :  使用Jekyll搭建个人博客的教程，以及如何把博客模板修改成你自己的博客，里面也有大量的评论，及 Jekyll 搭建博客出现过的问题。
 
 
 ### 使用条件
@@ -50,5 +50,4 @@ ZhouDingning.github.io/ 目录下， 开启本地服务
 
 
 #### 感谢   
-
 本博客在[leopardpan](http://baixin.io)基础上修改的。  
