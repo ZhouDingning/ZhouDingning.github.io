@@ -108,9 +108,11 @@ h5 {
 
 h1 {
   margin-top: 0;
+  padding-bottom: .2em;
   font-size: 2.0em;
   line-height: 1.2em;
   letter-spacing: .05em; 
+  border-bottom: 1px solid #DDDDDD;
 }
 
 h2 {
@@ -344,7 +346,7 @@ img::-moz-selection {
     border-left: 3px solid #458B74; 
     margin: 0;
     margin-right: 10px;
-    font-size: .9em;
+    font-size: 1.1em;
     background-color: #FFF;
     text-indent: 10px;
     color: #4F4F4F; 
@@ -496,7 +498,7 @@ img::-moz-selection {
     vertical-align: middle; }
 
   .panel-title {
-    margin: 0 0 5px 0;
+    margin: 0 0 9px 0;
     margin-top: 20px;
     font-size: 1.8em;
     letter-spacing: 4px;
@@ -504,7 +506,7 @@ img::-moz-selection {
 
   .panel-subtitle {
     font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-    font-size: 0.6em;
+    font-size: 1em;
     font-weight: lighter;
     letter-spacing: 3px;
     color: #CCCCCC;
@@ -540,6 +542,7 @@ img::-moz-selection {
     margin-bottom: .2em; }
 
   .panel-cover__description {
+    font-size: 1.2em;
     margin: 0 30px; }
 
   .panel-cover__divider {
@@ -716,7 +719,7 @@ img::-moz-selection {
     display: inline-block;
     margin-right: 0px;
     padding: 5px 5px 5px 5px;
-    font-size: .6em;
+    font-size: 1em;
     text-shadow: none;
     color: #BF1827;
   }
@@ -1422,3 +1425,45 @@ nav a {
   transform: translateY(-3px);
 }
 /*导航按钮-end*/
+
+/*标签分类-start*/
+.tag_box {
+    border: 1px solid #B9D3EE;
+    overflow: hidden;
+    padding: 1em 0 0 1em;
+    border-radius: 1em;
+    margin: 0em 0em 1em 0em;    
+}
+.tag_box li{
+  list-style: none;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  background-color: #1874CD;
+  padding: 0.3em 1em 0.3em 1em;
+  border-radius: 0em 0.8em 0.8em 0.8em;
+  position: relative;
+}
+/*.tag_box li::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    position: absolute;
+    top: 34%;
+    left: 12%;
+    border-radius: 50%;
+}*/
+.tag_box li a{
+  color: #fff;
+}
+.tag_box li a:hover{
+  color: #333333;
+}
+.tag_box li a span{
+  color: #333333;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  padding: 0 4px;
+}
