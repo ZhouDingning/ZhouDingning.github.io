@@ -3,30 +3,19 @@ layout: page
 title: 关于我 
 ---
 
-一个 iOS SDK 开发者，喜欢研究一些新技术。
+一个 应用数学研究僧，喜欢研究互联网技术。
 <p>
 平时喜欢整理个人博客，逛逛技术论坛。
 <p>
-了解一些 前端 基本概念和 Python 的简单用法。
+了解一些 机器学习 基本概念和 Python 的简单用法，应用在 量化投资 方面。
+<p>
+
+
+<h3> 博客来源 </h3>  
 
 <p>
 
-所在公司
-<a target="_blank" href="https://www.talkingdata.com/"> TalkingData </a>
-是一个移动互联网大数据平台的公司，无论你是运营、产品、开发 或者是App终端用户都可以了解下我们公司。
-<p>
-
-推荐一个我维护的 Team 博客
-<a target="_blank" href="http://talkingdata.me/"> voyagelab </a>
-里面有一些关于 iOS 、Android 和 机器学习 的文章。
-
-<p>
-
-<h3> 我们的博客 </h3>  
-
-<p>
-
-是的，这个博客是我们大家的，目前已经有很大一部分人在使用我的博客模板了，我也很高兴大家使用我的模板。
+是的，这个博客开源的，欢迎大家使用我的模板。
 
 <p>
 
@@ -36,11 +25,13 @@ title: 关于我
 
 <p>
 
-有关于博客主题的建议和意见都可以提给我，让我们一起来打造一个精美的主题吧~ 
+博客主题来源于
+<a target="_blank" href='http://baixin.io/'>leopardpan</a>
+，并在此基础上修改，有对于主题的建议和意见都可以提给我~ 
 
 <p> 
 
-博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
+博客源码在 <a target="_blank" href='https://github.com/ZhouDingning/ZhouDingning.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
 
 {% include comments.html %}
 

@@ -6,16 +6,16 @@ description: 欢迎来到我的个人站~
 avatarTitle: zhoudingning
 # 头像里面的描述
 avatarDesc: ML / DL/ FinTech
-url: "http://baixin.io"
+url: "https://zhoudingning.github.io"
 
 # Comment
 comment:
     # disqus: leopard
-    duoshuo: leopard 
+    # duoshuo: leopard 
 
 # Social
 social:
-    weibo: Zhou_Dingning 
+    weibo: 3161104515 
     github: ZhouDingning
     # twitter: 
     mail: ZhouDingning@163.com
@@ -64,7 +64,7 @@ nav:
 
 # Pagination
 gems: [jekyll-paginate]
-paginate: 20
+paginate: 10
 paginate_path: "page/:num/"
 
 
