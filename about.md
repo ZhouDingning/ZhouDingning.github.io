@@ -11,7 +11,7 @@ title: 关于我
 <p>
 
 
-<h3> 博客来源 </h3>  
+<!--<h3> 博客来源 </h3>  
 
 <p>
 
@@ -23,7 +23,7 @@ title: 关于我
 <a href="/2017/04/jekyll+github_for_windows/"> Jekyll 搭建个人博客 </a>
 教程
 
-<p>
+<p>-->
 
 
 博客源码在 <a target="_blank" href='https://github.com/ZhouDingning/ZhouDingning.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
