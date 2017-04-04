@@ -12,9 +12,12 @@ $(document).ready(function() {
     } else {
       $('.panel-cover').css('max-width',currentWidth);
       $('.panel-cover').animate({'max-width': '320px', 'width': '22%'}, 400, swing = 'swing', function() {} );
-    }
+    }  
+    //动态设置脚注宽度
+    footdivWidth = $('.footer_div').width();
+    $('.nation').css('max-width',footdivWidth); 
+    $('.coright').css('max-width',footdivWidth);
 
-    
   });
 
   if (window.location.hash && window.location.hash == "#blog") {
@@ -30,4 +33,10 @@ $(document).ready(function() {
     // 导航按钮被点击
     // this.style.backgroundColor = '#fff'; 设置颜色后会自动消失
   });  
+
+  //动态设置脚注宽度
+  footdivWidth = $('.footer_div').width();
+  $('.nation').css('max-width',footdivWidth);
+  $('.coright').css('max-width',footdivWidth);
+
 });

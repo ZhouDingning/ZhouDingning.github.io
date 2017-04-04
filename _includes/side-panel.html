@@ -1,64 +1,140 @@
 <header class="panel-cover {% if page.layout == 'post' or page.layout == 'page' %}panel-cover--collapsed{% endif %}" style="background-image: url('/images/background-cover.jpg')">
-  <div class="panel-main">
+    <div class="panel-main">
 
-    <div class="panel-main__inner panel-inverted">
-    <div class="panel-main__content">
-        <!-- 头像效果-start -->
-        <div class="ih-item circle effect right_to_left">            
-            <a href="/~" title="link to homepage for {{ site.avatarTitle }}" class="blog-button">
-                <div class="img"><img src="/images/avatar.jpg" alt="img"></div>
-                <div class="info">
-                    <div class="info-back">
-                        <h2> 
-                            {% if site.avatarTitle %}
-                                {{site.avatarTitle}}
-                            {% endif %}
-                        </h2>
-                        <p>
-                           {% if site.avatarDesc %}
-                                {{site.avatarDesc}}
-                            {% endif %}
-                        </p>
-                    </div>
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content">
+                <!-- 头像效果-start -->
+                <div class="ih-item circle effect right_to_left">            
+                    <a href="/" title="link to homepage for {{ site.avatarTitle }}" class="blog-button">
+                        <div class="img"><img src="/images/avatar.jpg" alt="img"></div>
+                        <div class="info">
+                            <div class="info-back">
+                                <h2> 
+                                    {% if site.avatarTitle %}
+                                    {{site.avatarTitle}}
+                                    {% endif %}
+                                </h2>
+                                <p>
+                                    {% if site.avatarDesc %}
+                                    {{site.avatarDesc}}
+                                    {% endif %}
+                                </p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </a>
-        </div>
-        <!-- 头像效果-end -->
-        <h2 class="panel-cover__title panel-title"><a href="/~" title="前往 {{ site.title }} 的主页" class="blog-button">{{ site.title }}</a></h2>
-        {% if site.subtitle %}
-        <span class="panel-cover__subtitle panel-subtitle">{{site.subtitle}}</span>
-        {% endif %}
-        <hr class="panel-cover__divider" />
-        <p class="panel-cover__description">{{ site.description }}</p>
-        <hr class="panel-cover__divider panel-cover__divider--secondary" />
-        
-        {% if site.welcome_message %}
-        <p class="panel-cover__description">{{ site.welcome_message }}</p>
-        {% endif %}
-        
+                <!-- 头像效果-end -->
+                <h2 class="panel-cover__title panel-title"><a href="/" title="前往 {{ site.title }} 的主页" class="blog-button">{{ site.title }}</a></h2>
+                {% if site.subtitle %}
+                <span class="panel-cover__subtitle panel-subtitle">{{site.subtitle}}</span>
+                {% endif %}
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">{{ site.description }}</p>
+                <hr class="panel-cover__divider panel-cover__divider--secondary" />
 
-        <div class="navigation-wrapper">
-          <div>
-            <nav class="cover-navigation cover-navigation--primary">
-              <ul class="navigation">
-                <li class="navigation__item"><a href="/#blog" title="{{site.blog_button.description}}" class="blog-button">{{site.blog_button.title}}</a></li>
-                {% for item in site.nav %}
-                  <li class="navigation__item"><a href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
-                {% endfor %}
-              </ul>
-            </nav>
-          </div>          
-        
+                {% if site.welcome_message %}
+                <p class="panel-cover__description">{{ site.welcome_message }}</p>
+                {% endif %}
 
+
+                <div class="navigation-wrapper">
+                    <div>
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                                <li class="navigation__item"><a href="/#blog" title="{{site.blog_button.description}}" class="blog-button">{{site.blog_button.title}}</a></li>
+                                {% for item in site.nav %}
+                                <li class="navigation__item"><a href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </nav>
+                    </div>          
+                </div>
+                 <!--首页脚注-->
+            <div class = "footer_div">  
+                <nav class="cover-navigation navigation--social">
+                    <ul class="nation">
+
+                        {% if site.social.weibo %}
+                        <!-- Weibo -->
+                        <li class="nation__item_social">
+                            <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 的微博" target="_blank">
+                                <i class='social fa fa-weibo fa-1x'></i>
+                                <span class="label">Weibo</span>
+                            </a>
+                        </li>
+                        {% endif %}
+
+                        {% if site.social.github %}
+                        <!-- Github -->
+                        <li class="nation__item_social">
+                            <a href="https://github.com/{{site.social.github}}" title="@{{site.social.github}} 的 Github" target="_blank">
+                                <i class='social fa fa-github fa-1x'></i>
+                                <span class="label">Github</span>
+                            </a>
+                        </li>
+                        {% endif %}
+
+                        {% if site.social.twitter %}
+                        <!-- Twitter -->
+                        <li class="nation__item_social">
+                            <a href="http://twitter.com/{{site.social.twitter}}" title="@{{site.social.twitter}}" target="_blank">
+                                <i class='social fa fa-twitter fa-1x'></i>
+                                <span class="label">Twitter</span>
+                            </a>
+                        </li>
+                        {% endif %}
+
+                        {% if site.social.gplus %}
+                        <!-- Google Plus -->
+                        <li class="nation__item_social">
+                            <a href="https://plus.google.com/{{site.social.gplus}}" rel="author" title="Google+" target="_blank">
+                                <i class='social fa fa-google-plus-square fa-1x'></i>
+                                <span class="label">Google Plus</span>
+                            </a>
+                        </li>
+                        {% endif %}
+
+                        <!-- RSS -->
+                        <li class="nation__item_social">
+                            <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+                                <i class='social fa fa-rss fa-1x'></i>
+                                <span class="label">RSS</span>
+                            </a>
+                        </li>
+
+                        {% if site.social.mail %}
+                        <!-- Email -->
+                        <li class="nation__item_social">
+                            <a href="mailto:{{site.social.mail}}" title="Contact me">
+                                <i class='social fa fa-envelope fa-1x'></i>
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
+                        {% endif %}
+
+                    </ul>
+                </nav>
+
+            </div>
+            <div class = "footer_div">  
+                <p class="coright">
+                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }} <!--|
+                    <iframe
+                    style="margin-left: 2px; margin-bottom:-5px;"
+                    frameborder="0" scrolling="0" width="91px" height="18px" 
+                    src="https://ghbtns.com/github-btn.html?user=ZhouDingning&repo=ZhouDingning.github.io&type=star&count=true" >
+                </iframe>-->
+            </p>
         </div>
-        </div>
-      </div>
+            </div>
+  
     </div>
-    
-    {% if site.cover_color %}
-    <div class="panel-cover--overlay cover-{{site.cover_color}}"></div>
-    {% else %}
-    <div class="panel-cover--overlay cover-disabled"></div>
-    {% endif %}
-  </div>
+</div>
+
+{% if site.cover_color %}
+<div class="panel-cover--overlay cover-{{site.cover_color}}"></div>
+{% else %}
+<div class="panel-cover--overlay cover-disabled"></div>
+{% endif %}
+</div>
 </header>
