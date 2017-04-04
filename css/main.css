@@ -1125,6 +1125,14 @@ border-width: 2px;
 .panel-cover.panel-cover--collapsed .panel-cover__description {
 display: none; 
 }
+/*foot不显示*/
+.panel-cover.panel-cover--collapsed .nation {
+display: none; 
+}
+.panel-cover.panel-cover--collapsed .coright {
+display: none; 
+}
+
 .panel-cover.panel-cover--collapsed .panel-cover__divider {
 display: none;
 margin: 1em auto; 
