@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux基本操作-2
+title: Linux基本操作（二）
 date: 2017-04-03
 tags: 操作系统  
 ---
