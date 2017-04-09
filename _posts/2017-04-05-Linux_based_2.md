@@ -199,4 +199,4 @@ qa： 显示所有已安装软件包（query all）
 * 安装： yum -y install java-1.7.0-openjdk
 
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning。github.io) » [Linux基本操作（一）](http://zhoudingning。github.io/2017/04/Linux_based_2/)  
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Linux基本操作（一）](http://zhoudingning.cn/2017/04/Linux_based_2/)  
