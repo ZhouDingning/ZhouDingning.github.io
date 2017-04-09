@@ -60,5 +60,5 @@ clf.predict(X_test)
 让我们记住对神经网络的了解。
 
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Linux基本操作（一）](http://zhoudingning.cn/2017/04/install_sublimeText_for_centos/)   
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [centos下安装sublime text3](http://zhoudingning.cn/2017/04/install_sublimeText_for_centos/)   
 
