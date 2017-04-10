@@ -43,28 +43,51 @@ wget http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3126_x64.tar.bz2
 　　*提示：请及时更新下载地址。*
 
 ### <a name="tar-package"></a>解压软件包
-
-　　图像大多排列为 3-D 阵列，具体指 高度、宽度 和 颜色通道。例如，如果你使用电脑截屏，它将首先转换成一个 3-D 数组，然后压缩它为 '.jpeg' 或 '.png' 文件格式。
+```
+tar jxvf sublime_text_3_build_3059_x64.tar.bz2
+```
 
 ### <a name="use-soft"></a>命令行下直接运行
-
-让我们从官方定义开始.
-
-　　“`TensorFlow` 是一个开源软件库，用于使用数据流图进行数值计算。图中的节点表示数学运算，而图边表示在它们之间传递的多维数据阵列（也称为张量）。 灵活的架构允许您使用单一 API 将计算部署到桌面、服务器或移动设备中的一个或多个的 CPU 或 GPU 中。
-
+```
+# cd /usr/local/sublime_text_3
+# ./sublime_text
+```
 
 ### <a name="desktop-soft"></a>创建桌面快捷方式
 
-　　每个库都有自己的“实现细节”，即一种写其遵循其编码范例的方式。 例如，当实现 scikit-learn 时，首先创建所需算法的对象，然后在训练和测试集上构建一个模型获得预测，如下所示：
+　　1、复制文件
+```
+# cp /usr/local/sublime_text_3/sublime_text.desktop /usr/share/applications
+```
 
-```python
+　　2、更改配置文件
+```
+# vim /usr/share/applications/sublime_text.desktop
 
-# define hyperparamters of ML algorithm
-clf = svm.SVC(gamma=0.001, C=100.)
-# train 
-clf.fit(X, y)
-# test 
-clf.predict(X_test)
+配置信息
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Sublime Text
+GenericName=Text Editor
+Comment=Sophisticated text editor for code, markup and prose
+Exec=/usr/local/sublime_text_3/sublime_text %F                   #修改路径
+Terminal=false
+MimeType=text/plain;
+Icon=/usr/local/sublime_text_3/Icon/48x48/sublime-text.png       #修改路径
+Categories=TextEditor;Development;
+StartupNotify=true
+Actions=Window;Document;
+
+[Desktop Action Window]
+Name=New Window
+Exec=/usr/local/sublime_text_3/sublime_text -n                   #修改路径
+OnlyShowIn=Unity;
+
+[Desktop Action Document]
+Name=New File
+Exec=/usr/local/sublime_text/sublime_text_3 --command new_file   #修改路径
+OnlyShowIn=Unity;
 ```
 
 ### <a name="open-soft"></a>打开软件
