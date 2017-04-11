@@ -12,9 +12,9 @@ tags: 编程语言
 
 ### 目录
 
-* [选择软件安装目录](#change-dir)
-* [下载软件](#download-soft)
-* [解压软件包](#tar-package)
+* [Python介绍](#change-dir)
+* [变量、](#download-soft)
+* [循环操作](#tar-package)
 * [命令行下直接运行](#use-soft)
 * [创建桌面快捷方式](#desktop-soft)
 * [打开软件](#open-soft)
