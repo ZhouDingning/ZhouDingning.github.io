@@ -44,55 +44,6 @@ wget http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3126_x64.tar.bz2
 tar jxvf sublime_text_3_build_3126_x64.tar.bz2
 ```
 
-### <a name="use-soft"></a>命令行下直接运行
-```
-# cd /usr/local/sublime_text_3
-# ./sublime_text
-```
-
-### <a name="desktop-soft"></a>创建桌面快捷方式
-
-1、复制文件
-```
-# cp /usr/local/sublime_text_3/sublime_text.desktop /usr/share/applications
-```
-
-2、更改配置文件
-```
-# vim /usr/share/applications/sublime_text.desktop
-
-配置信息
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Sublime Text
-GenericName=Text Editor
-Comment=Sophisticated text editor for code, markup and prose
-Exec=/usr/local/sublime_text_3/sublime_text %F                   #修改路径
-Terminal=false
-MimeType=text/plain;
-Icon=/usr/local/sublime_text_3/Icon/48x48/sublime-text.png       #修改路径
-Categories=TextEditor;Development;
-StartupNotify=true
-Actions=Window;Document;
-
-[Desktop Action Window]
-Name=New Window
-Exec=/usr/local/sublime_text_3/sublime_text -n                   #修改路径
-OnlyShowIn=Unity;
-
-[Desktop Action Document]
-Name=New File
-Exec=/usr/local/sublime_text/sublime_text_3 --command new_file   #修改路径
-OnlyShowIn=Unity;
-```
-
-### <a name="open-soft"></a>打开软件
-
-应用程序 >编程 > Sublime Text”右键”将此启动器添加到桌面”
-
-*去掉更新提示：找到Preferences -> Settings-User（设置用户），找到倒数第三行的//"update_check": false, 把注释去掉*
-
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Centos下安装sublime text3](http://zhoudingning.cn/2017/04/install_sublimeText_for_centos/)   
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Python基础（一）](http://zhoudingning.cn/2017/04/python_based_1/)   
 
