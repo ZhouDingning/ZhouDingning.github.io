@@ -97,5 +97,5 @@ OnlyShowIn=Unity;
 *去掉更新提示：找到Preferences -> Settings-User（设置用户），找到倒数第三行的//"update_check": false, 把注释去掉*
 
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Centos下安装sublime text3](http://zhoudingning.cn/2017/04/install_sublimeText_for_centos/)   
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Centos7下安装sublime text3](http://zhoudingning.cn/2017/04/install_sublimeText_for_centos7/)   
 
