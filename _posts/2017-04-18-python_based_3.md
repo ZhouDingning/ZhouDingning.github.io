@@ -45,5 +45,5 @@ tar jxvf sublime_text_3_build_3126_x64.tar.bz2
 ```
 
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Python基础（一）](http://zhoudingning.cn/2017/04/python_based_1/)   
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Python基础（三）](http://zhoudingning.cn/2017/04/python_based_3/)   
 
