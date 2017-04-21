@@ -1,13 +1,17 @@
 ---
 layout: post
-title: Centos7下安装SQL Server
-date: 2017-04-15
+title: 利用Mono和Jexus在Linux下部署ASP.NET项目
+date: 2017-04-21
 tags: 操作系统  
 ---
 
 ## 介绍
 
-　　SQL Server数据库介绍
+　　项目需要，所以得配置
+
+介绍信息
+
+配置过程
 
 Sublime Text是一款具有代码高亮、语法提示、自动完成且反应快速的编辑器软件，不仅具有华丽的界面，还支持插件扩展机制，用其来写代码，绝对是一种享受。被称为是一款程序员必备的神级代码编辑器。Centos大多数情况下是用来做服务器的，但是由于各种原因有时需要用Centos做开发机，所以当然要安装开发神器Sublime textle。
 
@@ -99,5 +103,5 @@ OnlyShowIn=Unity;
 *去掉更新提示：找到Preferences -> Settings-User（设置用户），找到倒数第三行的//"update_check": false, 把注释去掉*
 
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Centos7下安装SQL Server](http://zhoudingning.cn/2017/04/install_SQLServer_for_centos7/)   
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [利用Mono和Jexus在Linux下部署ASP.NET项目](http://zhoudingning.cn/2017/04/Mono+Jexus_deploy_ASP.NET_for_Linux/)   
 
