@@ -37,6 +37,7 @@ tags: 操作系统
 ### <a name="configuration"></a>初始配置
 
 1、是否要启动sql server服务，是否要在系统启动时启动sql server，输入：yes
+
 2、设置sql server的系统管理员sa的密码，必须是强密码类型（即密码最少8个字符，由数字、字母数字和符号等组成）
 
 ```
