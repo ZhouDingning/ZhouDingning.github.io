@@ -7,19 +7,18 @@ tags: 操作系统
 
 ## 介绍
 
-　　SQL Server数据库介绍
+　　SQL Server数据库一般指Microsoft SQL Server，是windows生态系统的关系型数据库，其高度集成化，微软也提供了整套的软件方案，基本上一套Windows系统装下来就可以了。因此，不那么缺钱，但很缺IT人才的中小企业，会偏爱MS SQL Server 。例如，自建ERP系统、商业智能、垂直领域零售商、餐饮、事业单位等等。然而一般主流的服务器是Linux操作系统，在项目部署中就会遇到在Linux中安装SQL Server的问题，这篇博客就介绍一下在Centos7中安装SQL Server。注：要求系统内存至少3250M，少一点就报错。。。
 
-Sublime Text是一款具有代码高亮、语法提示、自动完成且反应快速的编辑器软件，不仅具有华丽的界面，还支持插件扩展机制，用其来写代码，绝对是一种享受。被称为是一款程序员必备的神级代码编辑器。Centos大多数情况下是用来做服务器的，但是由于各种原因有时需要用Centos做开发机，所以当然要安装开发神器Sublime textle。
 
 
 ### 目录
 
-* [选择软件安装目录](#change-dir)
-* [下载软件](#download-soft)
-* [解压软件包](#tar-package)
-* [命令行下直接运行](#use-soft)
-* [创建桌面快捷方式](#desktop-soft)
-* [打开软件](#open-soft)
+* [下载SQL Server源](#download-sqlserver)
+* [安装SQL Server](#insatll-sqlserver)
+* [初始配置](#configuration)
+* [查看状态](#view-status)
+* [设置防火墙](#setup-firewall)
+* [SSMS连接服务器上SQL Server](#remote-connection)
 
 
 ### <a name="change-dir"></a>选择软件安装目录
