@@ -21,40 +21,34 @@ tags: 操作系统
 * [SSMS连接服务器上SQL Server](#remote-connection)
 
 
-### <a name="change-dir"></a>选择软件安装目录
+### <a name="download-sqlserver"></a>下载SQL Server源
 
-/usr/local下一般是你安装软件的目录，这个目录就相当于在windows下的programefiles这个目录
-
-/opt这个目录是一些大型软件的安装目录，或者是一些服务程序的安装目录
 ```
-# mkdir /usr/local
-# cd /usr/local
-```
-
-### <a name="download-soft"></a>下载软件
-
-1、下载地址：http://www.sublimetext.com/3
-
-*提示：Ubuntu 64 bit - also available as a **tarball** for other Linux distributions.*一定要下载**tarball**~~
-
-2、命令行下载
-```
-wget http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3126_x64.tar.bz2
+curl https://packages.microsoft.com/config/rhel/7/mssql-server.repo > /etc/yum.repos.d/mssql-server.repo
 ```
 *提示：请及时更新下载地址。*
 
-### <a name="tar-package"></a>解压软件包
+### <a name="insatll-sqlserver"></a>安装SQL Server
+
 ```
-tar jxvf sublime_text_3_build_3126_x64.tar.bz2
+yum install -y mssql-server
 ```
 
-### <a name="use-soft"></a>命令行下直接运行
+### <a name="configuration"></a>初始配置
+
+1、是否要启动sql server服务，是否要在系统启动时启动sql server，输入：yes
+2、设置sql server的系统管理员sa的密码，必须是强密码类型（即密码最少8个字符，由数字、字母数字和符号等组成）
+
 ```
-# cd /usr/local/sublime_text_3
-# ./sublime_text
+/opt/mssql/bin/mssql-conf setup
 ```
 
-### <a name="desktop-soft"></a>创建桌面快捷方式
+### <a name="view-status"></a>查看状态
+```
+systemctl status mssql-server
+```
+
+### <a name="setup-firewall"></a>设置防火墙
 
 1、复制文件
 ```
@@ -91,7 +85,7 @@ Exec=/usr/local/sublime_text/sublime_text_3 --command new_file   #修改路径
 OnlyShowIn=Unity;
 ```
 
-### <a name="open-soft"></a>打开软件
+### <a name="remote-connection"></a>SSMS连接服务器上SQL Server
 
 应用程序 >编程 > Sublime Text”右键”将此启动器添加到桌面”
 
