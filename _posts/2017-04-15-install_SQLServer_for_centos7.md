@@ -24,14 +24,14 @@ tags: 操作系统
 ### <a name="download-sqlserver"></a>下载SQL Server源
 
 ```
-curl https://packages.microsoft.com/config/rhel/7/mssql-server.repo > /etc/yum.repos.d/mssql-server.repo
+# curl https://packages.microsoft.com/config/rhel/7/mssql-server.repo > /etc/yum.repos.d/mssql-server.repo
 ```
 *提示：请及时更新下载地址。*
 
 ### <a name="insatll-sqlserver"></a>安装SQL Server
 
 ```
-yum install -y mssql-server
+# yum install -y mssql-server
 ```
 
 ### <a name="configuration"></a>初始配置
@@ -40,56 +40,34 @@ yum install -y mssql-server
 2、设置sql server的系统管理员sa的密码，必须是强密码类型（即密码最少8个字符，由数字、字母数字和符号等组成）
 
 ```
-/opt/mssql/bin/mssql-conf setup
+# /opt/mssql/bin/mssql-conf setup
 ```
 
 ### <a name="view-status"></a>查看状态
 ```
-systemctl status mssql-server
+# systemctl status mssql-server
 ```
 
 ### <a name="setup-firewall"></a>设置防火墙
 
-1、复制文件
+1、开放1433端口
 ```
-# cp /usr/local/sublime_text_3/sublime_text.desktop /usr/share/applications
+# firewall-cmd --zone=public --add-port=1433/tcp --permanent  
 ```
 
-2、更改配置文件
+2、重启防火墙
 ```
-# vim /usr/share/applications/sublime_text.desktop
-
-配置信息
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Sublime Text
-GenericName=Text Editor
-Comment=Sophisticated text editor for code, markup and prose
-Exec=/usr/local/sublime_text_3/sublime_text %F                   #修改路径
-Terminal=false
-MimeType=text/plain;
-Icon=/usr/local/sublime_text_3/Icon/48x48/sublime-text.png       #修改路径
-Categories=TextEditor;Development;
-StartupNotify=true
-Actions=Window;Document;
-
-[Desktop Action Window]
-Name=New Window
-Exec=/usr/local/sublime_text_3/sublime_text -n                   #修改路径
-OnlyShowIn=Unity;
-
-[Desktop Action Document]
-Name=New File
-Exec=/usr/local/sublime_text/sublime_text_3 --command new_file   #修改路径
-OnlyShowIn=Unity;
+# firewall-cmd --reload
 ```
 
 ### <a name="remote-connection"></a>SSMS连接服务器上SQL Server
 
-应用程序 >编程 > Sublime Text”右键”将此启动器添加到桌面”
-
-*去掉更新提示：找到Preferences -> Settings-User（设置用户），找到倒数第三行的//"update_check": false, 把注释去掉*
+在windows上用Microsoft SQL Server Management Studio（ssms）连接
+```
+1、服务器名称：192.168.239.128  （服务器IP）
+2、登录名：sa
+3、密码：123456sa.  （强密码类型）
+```
 
 <br>
 转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Centos7下安装SQL Server](http://zhoudingning.cn/2017/04/install_SQLServer_for_centos7/)   
