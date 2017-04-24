@@ -24,8 +24,6 @@ tags: 编程语言
 * [字符串和列表](#string-list)
 * [字典和元组](#dictionary-tuple)
 * [进制及数据类型转换](#system-dataType)
-* [系统操作](#system)
-
 
 
 ### <a name="basic-knowledge"></a>基础知识
