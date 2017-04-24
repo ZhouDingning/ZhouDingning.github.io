@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Centos7下安装sublime text3
-date: 2017-04-07
+date: 2017-04-08
 tags: 操作系统  
 ---
 

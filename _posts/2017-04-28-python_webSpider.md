@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Python基础（三）
-date: 2017-04-18
+title: Python网络爬虫
+date: 2017-04-28
 tags: 编程语言 
 ---
 
@@ -45,5 +45,5 @@ tar jxvf sublime_text_3_build_3126_x64.tar.bz2
 ```
 
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Python基础（三）](http://zhoudingning.cn/2017/04/python_based_3/)   
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Python网络爬虫](http://zhoudingning.cn/2017/04/python_webSpider/)   
 
