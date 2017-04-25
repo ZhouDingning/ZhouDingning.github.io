@@ -171,9 +171,33 @@ name="abcdef"
 
 * 常用操作 
 ```
--m 统计文本字符数
--w 统计文本字数
--l 统计文本行数
+mystr.find(str, start=0, end=len(mystr))
+mystr.rfind(str, start=0,end=len(mystr) )
+mystr.index(str, start=0, end=len(mystr)) 
+mystr.rindex( str, start=0,end=len(mystr))
+mystr.count(str, start=0, end=len(mystr))
+mystr.replace(str1, str2,  mystr.count(str1))
+mystr.split(str=" ", 2)    
+mystr.capitalize()
+mystr.title()
+mystr.startswith(obj)
+mystr.endswith(obj)
+mystr.lower()        
+mystr.upper() 
+mystr.ljust(width) 
+mystr.rjust(width)  
+mystr.center(width) 
+mystr.lstrip()
+mystr.rstrip()  
+mystr.partition(str)
+mystr.rpartition(str)
+mystr.splitlines()  
+mystr.isalnum()  
+mystr.isalpha()  
+mystr.isdigit() 
+mystr.isspace()   
+mystr.isupper()    
+mystr.join(str)
 ```
 
 
