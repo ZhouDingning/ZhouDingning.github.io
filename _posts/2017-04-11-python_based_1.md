@@ -88,12 +88,11 @@ python3.x
 * 输出
 ```
 python2.x
-	print "输出为：",num
-	print("输出为：",num)
+	print "输出为：" , num
 python3.x
-	print("输出为：",num)
-格式化输出
-	如：print("运算结果为：%d", %num)
+	print("输出为：" , num)
+格式化输出(2.x与3.x均可)
+	如：print("运算结果为：%d" %(num))
 ```
 
 **4、运算符**
@@ -142,28 +141,40 @@ while 条件:
 for temp in list:
 	要做的事情
 ```
+* 中止循环
+```
+break：用来结束整个循环
+continue：用来结束本次循环，紧接着执行下一次的循环
+```
+
 
 ### <a name="string-list"></a>字符串和列表
 
-* 显示文本文件内容 **cat**
+**1、字符串**
+
+* 定义、输入、输出
 ```
-连续显示文本文件               cat filename
-创建新的文本文件并输入内容       cat > filename 
-合并文本文件                  cat file1 file2 > file
+str=""
+str=raw_input("请输入字符串：")
+print("字符串为：%s" %(str))
 ```
-* 分页显示文本文件内容 **more**、**less**（按“空格”下一页）
-* 查看文本中开头或结尾部分的内容 **head**、**tail**（默认显示10行）
+* 索引、切片
 ```
-查看a.log文件的前5行  head –n 5 a.log 
-查看a.log文件的后5行  tail –n 5 b.log 
+name="abcdef"
+索引：name[i]  0<=i<len(name)
+切片：正向从0开始，负向从-1开始
+		name[0:3]="abc"
+		name[0:6:2]="ace"
+		name[3:]="def"
+		name[-1:-5:-1]="fedc"
 ```
-* 统计文本的行数、字数、字符数 **wc** 
+
+* 常用操作 
 ```
 -m 统计文本字符数
 -w 统计文本字数
 -l 统计文本行数
 ```
-* 在指定的文本文件中查找指定的字符串 **grep**
 
 
 ### <a name="dictionary-tuple"></a>字典和元组
