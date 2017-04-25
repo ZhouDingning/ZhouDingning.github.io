@@ -34,21 +34,47 @@ tags: 编程语言
     <img src="/images/posts/Python/if-while.jpg" height="100" width="800"/> 
 </div> 
 
-* bin  ：存放二进制可执行文件
-* sbin ：存放二进制可执行文件，只有root才能访问
-* etc  ：存放系统配置文件
-* usr  ：用于存放共享的系统资源
-* home ：存放用户文件的根目录
-* root ：超级用户目录
-* dev  ：用于存放设备文件
-* lib  ：存放跟文件系统中的程序运行所需要的共享库及内核模块
-* mnt  ：系统管理员安装临时文件系统的安装点
-* boot ：存放用于系统引导时使用的各种文件
-* tmp  ：用于存放各种临时文件
-* var  ：用于存放运行时需要改变数据的文件
+* **1、注释**
+```
+command  [-options]  [parameter1]  …
 
+说明：
+    command: 命令名,相应功能的英文单词或单词的缩写 
+    [-options]：选项,可用来对命令进行控制，也可以省略，[]代表可选 
+    parameter1 …：传给命令的参数：可以是零个一个或多个
+```
 
-　　 **Linux命令格式:**
+* **2、变量及类型**
+```
+command  [-options]  [parameter1]  …
+
+说明：
+    command: 命令名,相应功能的英文单词或单词的缩写 
+    [-options]：选项,可用来对命令进行控制，也可以省略，[]代表可选 
+    parameter1 …：传给命令的参数：可以是零个一个或多个
+```
+
+* **3、标示符和关键字**
+```
+command  [-options]  [parameter1]  …
+
+说明：
+    command: 命令名,相应功能的英文单词或单词的缩写 
+    [-options]：选项,可用来对命令进行控制，也可以省略，[]代表可选 
+    parameter1 …：传给命令的参数：可以是零个一个或多个
+```
+
+* **4、输入与输出**
+```
+command  [-options]  [parameter1]  …
+
+说明：
+    command: 命令名,相应功能的英文单词或单词的缩写 
+    [-options]：选项,可用来对命令进行控制，也可以省略，[]代表可选 
+    parameter1 …：传给命令的参数：可以是零个一个或多个
+```
+
+* **5、运算符**
 ```
 command  [-options]  [parameter1]  …
 
