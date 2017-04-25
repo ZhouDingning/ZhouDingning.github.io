@@ -7,6 +7,10 @@ tags: 编程语言
 
 ## 介绍
 
+<div align="center">
+    <img src="/images/posts/Python/python0.jpg" height="122" width="372"/> 
+</div> 
+
 　　Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。
 
 　　Python 简单、易学，其设计具有很强的可读性，高度的可移植性、可扩展性和可嵌入性。
@@ -16,6 +20,9 @@ tags: 编程语言
 　　Python 采用强制缩进的方式来规范代码，使得代码具有极佳的可读性。
 
 　　　　　　***人生苦短，我用Python***
+<div align="center">
+    <img src="/images/posts/Python/python.jpg" height="268" width="390"/> 
+</div> 
 
 ### 目录
 
@@ -28,13 +35,35 @@ tags: 编程语言
 
 ### <a name="basic-knowledge"></a>基础知识
 
-　　 在 Linux 下，我们是看不到像Windows里的驱动器盘符，看到的是文件夹（目录）。 
+**1、注释**
 
-<div align="center">
-    <img src="/images/posts/Python/if-while.jpg" height="100" width="800"/> 
-</div> 
+　　通过用自己熟悉的语言，在程序中对某些代码进行标注说明，这就是注释的作用，能够大大增强程序的可读性。
 
-* **1、注释**
+* 单行注释
+```python
+# 单行注释，一般为功能说明
+print('hello world')
+```
+
+* 多行注释
+```python
+'''
+	多行注释，可以写很多行的功能说明
+	功能输入：XX
+	功能过程：BP网络
+	功能输出：YY
+'''
+    print("YY")
+```
+
+* 中文注释 ( *如果直接在程序中用到了中文，直接运行输出，程序会出错* )
+```python
+#coding=utf-8
+print("人生苦短，我用Python")
+```
+
+**2、变量及类型**
+
 ```
 command  [-options]  [parameter1]  …
 
@@ -44,7 +73,8 @@ command  [-options]  [parameter1]  …
     parameter1 …：传给命令的参数：可以是零个一个或多个
 ```
 
-* **2、变量及类型**
+**3、标示符和关键字**
+
 ```
 command  [-options]  [parameter1]  …
 
@@ -54,7 +84,8 @@ command  [-options]  [parameter1]  …
     parameter1 …：传给命令的参数：可以是零个一个或多个
 ```
 
-* **3、标示符和关键字**
+**4、输入与输出**
+
 ```
 command  [-options]  [parameter1]  …
 
@@ -64,17 +95,8 @@ command  [-options]  [parameter1]  …
     parameter1 …：传给命令的参数：可以是零个一个或多个
 ```
 
-* **4、输入与输出**
-```
-command  [-options]  [parameter1]  …
+**5、运算符**
 
-说明：
-    command: 命令名,相应功能的英文单词或单词的缩写 
-    [-options]：选项,可用来对命令进行控制，也可以省略，[]代表可选 
-    parameter1 …：传给命令的参数：可以是零个一个或多个
-```
-
-* **5、运算符**
 ```
 command  [-options]  [parameter1]  …
 
