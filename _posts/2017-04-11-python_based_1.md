@@ -30,7 +30,6 @@ tags: 编程语言
 * [判断、循环语句](#if-while)
 * [字符串和列表](#string-list)
 * [字典和元组](#dictionary-tuple)
-* [进制及数据类型转换](#system-dataType)
 
 
 ### <a name="basic-knowledge"></a>基础知识
@@ -284,63 +283,12 @@ key是否存在：	info.has_key("name")
 			print("key=%s,value=%s" %(key,value))
 ```
 
-### <a name="system-dataType"></a>进制及数据类型转换
+**2、元组**
 
-* system-dataType简介
-
-　　 vi / system-dataType是Unix / Linux上最常用的文本编辑器而且功能非常强大。只有命令，没有菜单。
-
-<div align="center">
-    <img src="/images/posts/Linux/system-dataType.jpg" height="200" width="400"/> 
-</div> 
-* 插入命令
+* 定义
 ```
-i   在光标前插入
-I   在光标当前行开始插入
-a   在光标后插入
-A   在光标当前行末尾插入
-o   在光标当前行的下一行插入新行
-O   在光标当前行的上一行插入新行
-```
-* 定位命令
-```
-:set nu     显示行号
-:set nonu   取消行号
-gg          到文本的第一行
-G           到文本的最后一行
-:n          到文本的第n行
-```
-* 删除命令
-```
-x         删除光标所在处字符
-nx        删除光标所在处后的n个字符
-dd        删除光标所在行。ndd删除n行
-dG        删除光标所在行到末尾行的所以内容
-D         删除光标所在处到行尾的内容
-:n1,n2 d  删除指定范围的行
-```
-* 替换和取消命令
-```
-u        取消上一步操作
-Ctrl+r   返回到undo之前
-r        替换光标所在处的字符
-R        从光标所在处开始替换，按Esc键结束
-```
-* 可视模式
-```
-v            进入字符可视模式
-V/Shift + v  进入行可视模式
-Ctrl + v     进入块可视模式
-（1）选定文本块，使用v进入可视模式；移动光标键选定内容
-（2）复制选定块到缓冲区，用y；复制整行，用yy
-（3）剪切选定块到缓冲区，用d；剪切整行用dd
-（4）粘贴缓冲区中的内容，用p
-```
-* 常用快捷键
-```
-Shift+zz   保存退出
-“:wq”       保存退出
-“:q!”      不保存退出
+元组与列表类似，不同之处在于元组的元素**不能修改**
+testTuple = ('et',77,99.9)
 ```
 
 <br>
