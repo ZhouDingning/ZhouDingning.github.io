@@ -99,19 +99,19 @@ python3.x
 
 * 算术运算符
 ```python
-	+(加)、 -(减)、 *(乘)、 /(除)、 %(取余)、 **(幂)、 // (取整除)
++(加)、 -(减)、 *(乘)、 /(除)、 %(取余)、 **(幂)、 // (取整除)
 ```
 * 复合赋值运算符
 ```
-	+=、 -=、 *=、 /=、 %=、 **=、 //=
++=、 -=、 *=、 /=、 %=、 **=、 //=
 ```
 * 关系运算符
 ```
-	==(相等)、 !=(不相等)、 <>=(不相等)、 >(大于)、 <(小于)、 >=(大于等于)、 <=(小于等于)
+==(相等)、 !=(不相等)、 <>=(不相等)、 >(大于)、 <(小于)、 >=(大于等于)、 <=(小于等于)
 ```
 * 逻辑运算符
 ```
-	and(与)、 or(或)、 not(非)
+and(与)、 or(或)、 not(非)
 ```
 
 ### <a name="if-while"></a>判断、循环语句
@@ -222,59 +222,66 @@ for temp in testList:
 * 增删改查操作
 ```
 【添加元素】
-	末尾：testList.append("swe")
-	插入：testList.insert(i,"ews")
-	扩展：testList.extend(newList)
+		末尾：testList.append("swe")
+		插入：testList.insert(i,"ews")
+		扩展：testList.extend(newList)
 【修改元素】
-	testList[i]="xxx"
+		testList[i]="xxx"
 【查找元素】
-	存在：in
-	不存在：not in
-	区间索引：testList.index("abc",i,j)
-	频数统计：testList.count("dfe")
+		存在：in
+		不存在：not in
+		区间索引：testList.index("abc",i,j)
+		频数统计：testList.count("dfe")
 【删除元素】
-	下标：del testList[i]
-	末尾：testList.pop()
-	值：testList.remove("abc")
+		下标：del testList[i]
+		末尾：testList.pop()
+		值：  testList.remove("abc")
 ```
 
 
 ### <a name="dictionary-tuple"></a>字典和元组
 
-* gzip 压缩（解压）文件或目录，压缩文件后缀为gz 
+**1、字典**
+
+* 定义(键值对)
 ```
-命令格式：gzip [-dlv] 文档名
--d将压缩文件解压（decompress）
--l显示压缩文件的大小，未压缩文件的大小，压缩比（list）
--v显示文件名和压缩比（verbose）
--num用指定的数字num调整压缩的速度，-1或--fast表示最快压缩方法（低压缩比），-9或--best表示最慢压缩方法（高压缩比）。系统缺省值为6
+info = {'name':'张三', 'id':100, 'sex':'f', 'address':'中国北京'}
 ```
-* bzip2 压缩（解压）文件或目录，压缩文件后缀为bz2 
+* 增删改查操作
 ```
-命令格式：bzip2 [-cdz] 文档名
--c将压缩的过程产生的数据输出到屏幕上
--d解压缩的参数（decompress）
--z压缩的参数（compress）
--num 用指定的数字num调整压缩的速度，-1或--fast表示最快压缩方法（低压缩比），-9或--best表示最慢压缩方法（高压缩比）。系统缺省值为6
+【添加元素】
+		info["age"]=20
+【修改元素】
+		info["name"]="李四"
+【查找元素】
+		print(info["sex"])
+【删除元素】
+		指定元素：del info["id"]
+		整个字典：del info
+		清空字典：info.clear()
 ```
-* tar 文件、目录打（解）包
+* 字典操作
 ```
-命令格式：tar [-zjcxvf] 文档名
--c 建立一个压缩文件的参数指令（create）
--x 解开一个压缩文件的参数指令（extract）
--z 是否需要用 gzip 压缩
--j 是否需要用 bzip2 压缩
--v 压缩的过程中显示文件（verbose）
--f 使用档名，在 f 之后要立即接档名（file）
+长度：		len(info)
+Key列表：	info.keys()
+Value列表：	info.values()
+键值元组：	info.items()
+key是否存在：	info.has_key("name")
 ```
-* 使用举例：
+* 字典遍历
 ```
-压缩用法：
-    tar zcvf 压缩包包名 文件...(tar zcvf bk.tar.gz *.c)
-    tar jcvf 压缩包包名 文件...(tar jcvf bk.tar.bz2 *.c)
-解压用法：
-    tar zxvf 压缩包包名 (tar zxvf bk.tar.gz)
-    tar jxvf 压缩包包名 (tar jxvf bk.tar.bz2)
+【遍历key】
+		for key in info.keys():
+			print(key)
+【遍历value】
+		for value in info.values():
+			print(value)
+【遍历元素】
+		for item in info.items():
+			print(item)
+【遍历key-value】
+		for keyvalue in info.items():
+			print("key=%s,value=%s" %(key,value))
 ```
 
 ### <a name="system-dataType"></a>进制及数据类型转换
