@@ -207,6 +207,37 @@ name="abcdef"
 拼接：mystr.join(str)
 ```
 
+**2、列表**
+
+* 定义、输出
+```
+testList=["abc",123,32,"dfe"]
+print(testList[i])
+```
+* 循环遍历
+```
+for temp in testList:
+	print(temp)
+```
+* 增删改查操作
+```
+【添加元素】
+	末尾：testList.append("swe")
+	插入：testList.insert(i,"ews")
+	扩展：testList.extend(newList)
+【修改元素】
+	testList[i]="xxx"
+【查找元素】
+	存在：in
+	不存在：not in
+	区间索引：testList.index("abc",i,j)
+	频数统计：testList.count("dfe")
+【删除元素】
+	下标：del testList[i]
+	末尾：testList.pop()
+	值：testList.remove("abc")
+```
+
 
 ### <a name="dictionary-tuple"></a>字典和元组
 
