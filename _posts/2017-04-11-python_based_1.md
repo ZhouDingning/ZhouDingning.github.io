@@ -266,7 +266,8 @@ info = {'name':'张三', 'id':100, 'sex':'f', 'address':'中国北京'}
 Key列表：	info.keys()
 Value列表：	info.values()
 键值元组：	info.items()
-key是否存在：	info.has_key("name")
+key是否存在：	info.has_key("name") (*python3中没有*)
+				info.get("name")
 ```
 * 字典遍历
 ```
@@ -280,8 +281,11 @@ key是否存在：	info.has_key("name")
 		for item in info.items():
 			print(item)
 【遍历key-value】
-		for keyvalue in info.items():
+		for key,value in info.items():
 			print("key=%s,value=%s" %(key,value))
+【枚举】
+		for i,k-v in enumrate(info)
+			print(i,k-v)
 ```
 
 **2、元组**
