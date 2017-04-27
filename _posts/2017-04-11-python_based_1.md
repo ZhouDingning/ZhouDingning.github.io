@@ -253,7 +253,8 @@ info = {'name':'张三', 'id':100, 'sex':'f', 'address':'中国北京'}
 【修改元素】
 		info["name"]="李四"
 【查找元素】
-		print(info["sex"])
+		info["sex"]
+		info.get("age",20)
 【删除元素】
 		指定元素：del info["id"]
 		整个字典：del info
