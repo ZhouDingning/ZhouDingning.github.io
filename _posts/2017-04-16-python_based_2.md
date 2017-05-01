@@ -105,7 +105,7 @@ command  [-options]  [parameter1]  …
 
 ### <a name="OOP"></a>面向对象
 
-* gzip 压缩（解压）文件或目录，压缩文件后缀为gz 
+* 这部分内容多一点gzip 压缩（解压）文件或目录，压缩文件后缀为gz 
 ```
 命令格式：gzip [-dlv] 文档名
 -d将压缩文件解压（decompress）
