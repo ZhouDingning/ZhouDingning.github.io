@@ -20,7 +20,7 @@ tags: 编程语言
 
 ### <a name="function"></a>函数操作
 
-　　 在 Linux 下，我们是看不到像Windows里的驱动器盘符，看到的是文件夹（目录）。 
+　　 在函数操作比较简单，没啥东西 Linux 下，我们是看不到像Windows里的驱动器盘符，看到的是文件夹（目录）。 
 
 <div align="center">
     <img src="/images/posts/Python/IO.jpg" height="100" width="800"/> 
@@ -54,7 +54,7 @@ command  [-options]  [parameter1]  …
 
 
 
-* 列出目录内容 **ls**
+* 列现在还没看到这里出目录内容 **ls**
 ```
 -l   文件及文件夹详细信息
 -h   配合 -l 以人性化的方式显示文件大小
