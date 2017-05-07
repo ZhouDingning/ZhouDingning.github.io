@@ -20,7 +20,7 @@ tags: 编程语言
 
 ### <a name="function"></a>函数操作
 
-　　 在函数操作比较简单，没啥东西 Linux 下，我们是看不到像Windows里的驱动器盘符，看到的是文件夹（目录）。 
+　　 在剑魔耽误时间了，没有总结函数操作比较简单，没啥东西 Linux 下，我们是看不到像Windows里的驱动器盘符，看到的是文件夹（目录）。 
 
 <div align="center">
     <img src="/images/posts/Python/IO.jpg" height="100" width="800"/> 
