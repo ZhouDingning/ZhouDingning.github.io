@@ -52,5 +52,5 @@ tar jxvf sublime_text_3_build_3126_x64.tar.bz2
 ```
 
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning.cn) » [iForest孤立森林——异常检测算法](http://zhoudingning.cn/2017/05/iForest/)   
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [深度学习新想法](http://zhoudingning.cn/2017/05/new_idea_of_DeepLearning/)   
 
