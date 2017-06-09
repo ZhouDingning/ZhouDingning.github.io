@@ -86,7 +86,7 @@ OnlyShowIn=Unity;
 
 [Desktop Action Document]
 Name=New File
-Exec=/usr/local/sublime_text/sublime_text_3 --command new_file   #修改路径
+Exec=/usr/local/sublime_text_3/sublime_text_3 --command new_file   #修改路径
 OnlyShowIn=Unity;
 ```
 
