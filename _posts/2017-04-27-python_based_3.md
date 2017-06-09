@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Python基础（二）
-date: 2017-04-16
+title: Python基础（三）
+date: 2017-04-27
 tags: 编程语言 
 ---
 
@@ -142,5 +142,5 @@ command  [-options]  [parameter1]  …
 ```
 
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Python基础（二）](http://zhoudingning.cn/2017/04/python_based_2/)   
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Python基础（三）](http://zhoudingning.cn/2017/04/python_based_3/)   
 

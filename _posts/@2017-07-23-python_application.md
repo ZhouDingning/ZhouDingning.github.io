@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python应用实战（飞机大战）
-date: 2017-04-23
+date: 2017-07-23
 tags: 编程语言 
 ---
 
@@ -48,5 +48,5 @@ tar jxvf sublime_text_3_build_3126_x64.tar.bz2
 ```
 
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Python应用实战（飞机大战）](http://zhoudingning.cn/2017/04/python_application/)   
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Python应用实战（飞机大战）](http://zhoudingning.cn/2017/07/python_application/)   
 
