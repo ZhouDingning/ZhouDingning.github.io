@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Centos7下安装SQL Server
-date: 2017-04-15
+date: 2017-05-15
 tags: 操作系统  
 ---
 
@@ -73,5 +73,5 @@ tags: 操作系统
 ```
 
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Centos7下安装SQL Server](http://zhoudingning.cn/2017/04/install_SQLServer_for_centos7/)   
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [Centos7下安装SQL Server](http://zhoudingning.cn/2017/05/install_SQLServer_for_centos7/)   
 

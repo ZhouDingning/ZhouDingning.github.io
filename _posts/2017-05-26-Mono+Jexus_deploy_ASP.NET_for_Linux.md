@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 利用Mono和Jexus在Linux下部署ASP.NET项目
-date: 2017-04-21
+date: 2017-05-26
 tags: 操作系统  
 ---
 
@@ -104,5 +104,5 @@ OnlyShowIn=Unity;
 *去掉更新提示：找到Preferences -> Settings-User（设置用户），找到倒数第三行的//"update_check": false, 把注释去掉*
 
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning.cn) » [利用Mono和Jexus在Linux下部署ASP.NET项目](http://zhoudingning.cn/2017/04/Mono+Jexus_deploy_ASP.NET_for_Linux/)   
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [利用Mono和Jexus在Linux下部署ASP.NET项目](http://zhoudingning.cn/2017/05/Mono+Jexus_deploy_ASP.NET_for_Linux/)   
 

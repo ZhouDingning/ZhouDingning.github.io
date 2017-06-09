@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 深度学习新想法
-date: 2017-05-15
+date: 2017-06-03
 tags: 深度学习 机器学习 
 ---
 
@@ -52,5 +52,5 @@ tar jxvf sublime_text_3_build_3126_x64.tar.bz2
 ```
 
 <br>
-转载请注明：[周定宁的博客](http://zhoudingning.cn) » [深度学习新想法](http://zhoudingning.cn/2017/05/new_idea_of_DeepLearning/)   
+转载请注明：[周定宁的博客](http://zhoudingning.cn) » [深度学习新想法](http://zhoudingning.cn/2017/06/new_idea_of_DeepLearning/)   
 
