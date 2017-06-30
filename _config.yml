@@ -10,16 +10,15 @@ url: "http://zhoudingning.cn"
 
 # Comment
 comment:
-    # disqus: leopard
-    # duoshuo: leopard 
+    # disqus: ZDN
     # cloudTie：ZDN
 
 # Social
 social:
     weibo: 3161104515 
     github: ZhouDingning
-    # twitter: 
     mail: ZhouDingning@163.com
+    # twitter: 
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
